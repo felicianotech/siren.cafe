@@ -1,0 +1,56 @@
+baseURL = "https://Siren.Cafe/"
+title = "Siren Cafe"
+languageCode = "en-us"
+theme = "siren.cafe-2018"
+
+googleAnalytics = ""
+disqusShortname = ""
+
+enableEmoji = true
+
+[params]
+	author = "Ricardo N Feliciano & Will Blew"
+	profilepic = "/assets/img/logo-circle.svg"
+	description = "A podcast about tech side projects and the people who make them."
+	githubUsername = "felicianotech"
+	accent = "#A84037"
+	showBorder = true
+	backgroundColor = "#EFEFEF"
+	font = "Raleway"
+	hightlight = true
+	highlightStyle = "solarized-dark"
+	highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
+[blackfriday]
+	hrefTargetBlank	=	true
+
+[social]
+	twitter = "DeveloperHustle"
+
+
+[[menu.main]]
+	name	= "Home"
+	url		= "/"
+	weight	= -1
+
+[[menu.main]]
+	name	= "Newsletter"
+	url		= "/newsletter/"
+	weight	= 10
+
+
+
+[[menu.social]]
+	name = "twitter"
+	url = "https://twitter.com/SirenCafeHQ/"
+	weight	= -1
+
+[[menu.social]]
+    name = "facebook"
+    url = "https://www.facebook.com/SirenCafeHQ"
+	weight	= 5
+
+[[menu.social]]
+    name = "github"
+    url = "https://github.com/felicianotech/siren.cafe"
+	weight	= 10

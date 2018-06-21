@@ -1,0 +1,19 @@
+/* Rules without a media query present take affect when the webpage is 1,000px 
+ * or less. */
+
+body.home main article,
+body.section-blog main article{
+	width: 80%;
+}
+
+
+/************************************************
+ * <= 900px width
+ * *********************************************/
+@media(max-width: 800px){
+	body.home main article,
+	body.section-blog main article{
+		padding: 25px;
+		width: 95%;
+	}
+}
