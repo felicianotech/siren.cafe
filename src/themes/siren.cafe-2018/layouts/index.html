@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main class="list">
+	<h1 style="display:none;">{{ .Title }}</h1>
+	{{ range where .Data.Pages "Section" "blog" }}
+	<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+		<div class="content">{{ .Summary }}</div>
+		{{ if .Truncated }}
+			<a class="more-link" href="{{ .RelPermalink }}">continue reading →</a>
+		{{ end }}
+		<hr />
+		{{ end }}
+</main>
+{{ end }}
