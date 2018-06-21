@@ -42,12 +42,12 @@ enableEmoji = true
 
 [[menu.social]]
 	name = "twitter"
-	url = "https://twitter.com/DeveloperHustle/"
-
-[[menu.social]]
-    name = "github"
-    url = "https://github.com/felicianotech/developerhustle.io"
+	url = "https://twitter.com/SirenCafeHQ/"
 
 [[menu.social]]
     name = "facebook"
-    url = "https://www.facebook.com/DeveloperHustle"
+    url = "https://www.facebook.com/SirenCafeHQ"
+
+[[menu.social]]
+    name = "github"
+    url = "https://github.com/felicianotech/siren.cafe"
