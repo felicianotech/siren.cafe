@@ -43,11 +43,14 @@ enableEmoji = true
 [[menu.social]]
 	name = "twitter"
 	url = "https://twitter.com/SirenCafeHQ/"
+	weight	= -1
 
 [[menu.social]]
     name = "facebook"
     url = "https://www.facebook.com/SirenCafeHQ"
+	weight	= 5
 
 [[menu.social]]
     name = "github"
     url = "https://github.com/felicianotech/siren.cafe"
+	weight	= 10
