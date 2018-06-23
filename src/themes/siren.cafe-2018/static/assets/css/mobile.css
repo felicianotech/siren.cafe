@@ -13,6 +13,7 @@ body.section-blog main article{
 @media(max-width: 800px){
 	body.home main article,
 	body.section-blog main article{
+		padding: 25px;
 		width: 95%;
 	}
 }
