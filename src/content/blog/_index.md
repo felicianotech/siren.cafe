@@ -1,4 +1,4 @@
 ---
-url: "/"
+url: "./"
 aliases: "blog"
 ---
