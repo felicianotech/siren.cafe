@@ -209,6 +209,12 @@ body.section-blog main article{
 			font-size: 2.5rem;
 		}
 
+		body.home main article h2,
+		body.section-blog main article h2{
+			margin: 0;
+			font-size: 1.8rem;
+		}
+
 		body.home main article header ul,
 		body.section-blog main article header ul{
 			margin: 0;
