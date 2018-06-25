@@ -1,5 +1,5 @@
 ---
 type: "blog"
+section: "blog"
 url: "/"
-aliases: "blog"
 ---
