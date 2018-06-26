@@ -9,14 +9,10 @@ disqusShortname = ""
 enableEmoji = true
 
 [params]
-	author = "Ricardo N Feliciano & Will Blew"
+	author = "Ricardo N Feliciano"
 	profilepic = "/assets/img/logo-circle.svg"
-	description = "A podcast about tech side projects and the people who make them."
+	description = "A blog for Starbucks and Coffee lovers."
 	githubUsername = "felicianotech"
-	accent = "#A84037"
-	showBorder = true
-	backgroundColor = "#EFEFEF"
-	font = "Raleway"
 	hightlight = true
 	highlightStyle = "solarized-dark"
 	highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
@@ -25,7 +21,7 @@ enableEmoji = true
 	hrefTargetBlank	=	true
 
 [social]
-	twitter = "DeveloperHustle"
+	twitter = "SirenCafeHQ"
 
 
 [[menu.main]]
