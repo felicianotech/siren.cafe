@@ -1,3 +1,4 @@
 ---
-url: "other"
+section: "blog"
+type: "blog"
 ---

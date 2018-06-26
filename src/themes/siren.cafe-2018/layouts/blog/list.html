@@ -2,7 +2,7 @@
 <main class="list">
 	<h1>{{ .Title }}</h1>
 	{{ if .Content }}<div class="content-body">{{ .Content }}</div>{{ end }}
-	{{ range (.Paginate (.Data.Pages.ByDate.Reverse)).Pages }}
+	{{ range (.Paginate (where .Data.Pages.ByDate.Reverse "Section" "blog" )).Pages }}
 		<article id="{{ .UniqueID }}">
 			<header>
 				<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
