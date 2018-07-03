@@ -35,10 +35,10 @@ enableEmoji = true
 	weight	= 10
 
 
-#[[menu.social]]
-#	name = "twitter"
-#	url = "https://twitter.com/SirenCafeHQ/"
-#	weight	= -1
+[[menu.social]]
+	name = "twitter"
+	url = "https://twitter.com/SirenCafeHQ/"
+	weight	= -1
 
 [[menu.social]]
     name = "facebook"
